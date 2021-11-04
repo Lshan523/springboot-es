@@ -23,6 +23,7 @@ import java.util.List;
  *   @Field(type=FieldType.Long)                        表示该字段是一个长整型，默认建立索引
  *   @Field(type=FieldType.Keyword)                     表示该字段内容是一个文本并作为一个整体不可分，默认建立索引
  *   @Field(type=FieldType.Float)                       表示该字段内容是一个浮点类型并作为一个整体不可分，默认建立索引
+ *  date 、float、long都是不能够被拆分的
  */
 @Data
 @Document(indexName = "book")
