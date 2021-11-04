@@ -1,10 +1,11 @@
-spring:
-  application:
-    name: es-demo
-  elasticsearch:
-    rest:
-      uris: http://192.168.18.129:9200
-      username: sea
-      password: 123456
-      connection-timeout: 5
-      read-timeout: 30
+#spring:
+#  application:
+#    name: es-demo
+#  elasticsearch:
+#    rest:
+#      uris: http://192.168.18.129:9200
+#      username: sea
+#      password: 123456
+#      connection-timeout: 5
+#      read-timeout: 30
+
